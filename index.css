@@ -1,0 +1,177 @@
+@font-face {
+font-family: comforta;
+src: url('src/font/comforta.ttf');
+}
+
+
+/* Setup ------------------------------- */
+
+body{
+	margin: 0px;
+	background-color: #333;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+/* Header -----------------------------------*/
+
+header{
+	background-color: #141313;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	opacity: 0.9;
+}
+.logo{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 0px 0px 3px 3px;
+	width: 200px;
+	height: auto;
+}
+
+.header-link{
+	font-size: 20px;
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: white;
+	width: 200px;
+	text-align: center;
+	text-decoration: none;
+	font-family: comforta, sans-serif;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border: 2px solid #141313;
+}
+.header-link:hover{
+	transition: 0.7s;
+	border-bottom: 2px solid white;
+}
+
+
+
+/* Content -------------------------------------*/
+
+.container{
+	width: 50%;
+	display: block;
+	margin:auto;
+}
+.all{
+	margin-top: 250px;
+	display: flex;
+	justify-content: space-between;
+}
+.infos{
+	background-color: #424242;
+	width: 600px;
+	padding: 30px;
+	padding-top: 10px;
+	border-top: 5px solid #b8a374;
+	display: block;
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-right: 100px;
+}
+.infos-h2{
+	font-family: comforta, sans-serif;
+	color: #b8a374;
+	font-size: 35px;
+}
+.infos-p{
+	color: #d9d7d7;
+	font-family: comforta, sans-serif;
+}
+.formulaire{
+	width: 100%;
+	border-top: 5px solid #b8a374;
+	background-color: #424242;
+}
+.form-titre{
+	font-family: comforta, sans-serif;
+	text-align: center;
+	color: #b8a374;
+	padding: 8px;
+	font-size: 35px;
+}
+.input{
+	width: 50%;
+	display: block;
+	margin:auto;
+	height: 25px;
+	outline: none;
+	border-radius: 10px;
+	border: none;
+	font-family: comforta, sans-serif;
+	padding-left: 15px;
+}
+.submit{
+	display: block;
+	margin:auto;
+	width: 100px;
+	padding: 10px;
+	outline: none;
+	border: 2px solid #b8a374;
+	color: #b8a374;
+	border-radius: 20px;
+	background: none;
+}
+.submit:hover{
+	background-color: #b8a374;
+	color: #333;
+	transition: 0.7s;
+}
+.img{
+	width: 400px;
+	height: 200px;
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	border-radius: 3px;
+}
+
+/* Footer ------------------------------*/
+
+footer{
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+	border-top: 3px solid silver;
+}
+.logo-footer{
+	padding-right: 50px;
+	margin-right: 50px;
+	width: 200px;
+	height: auto;
+	margin-top:auto;
+	margin-bottom: auto;
+	border-right: 2px solid white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.more-infos{
+	color: #d9d7d7;
+	font-family: comforta, sans-serif;
+}
+.more{
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+
+
+
+
+
+
+
+
